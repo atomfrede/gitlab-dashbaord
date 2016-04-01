@@ -2,11 +2,11 @@ language: java
 
 jdk:
   - oraclejdk8
-before_script:
+
+before_install:
   - curl -sL https://github.com/jpm4j/jpm4j.installers/raw/master/dist/biz.aQute.jpm.run.jar >t.jar
   - java -jar t.jar init
   - rm t.jar
-before_install:
   - jpm install com.codacy:codacy-coverage-reporter:assembly
   - pip install --user codecov
 after_success:
