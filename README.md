@@ -3,4 +3,4 @@
 [![Codacy](https://img.shields.io/codacy/d49186b0dfd6451c9ba26a8f8ab4c135.svg?style=flat-square)](https://www.codacy.com/app/frederik-hahne/gitlab-dashboard/dashboard)
 [![Dependency Status](https://www.versioneye.com/user/projects/56feb165fcd19a004543f71c/badge.svg?style=flat)](https://www.versioneye.com/user/projects/56feb165fcd19a004543f71c)
 
-= Gitlab Build Dashboard
+# Gitlab Build Dashboard
