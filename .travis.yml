@@ -2,7 +2,9 @@ language: java
 
 jdk:
   - oraclejdk8
-
+before_script:
+  - curl https://www.jpm4j.org/install/script | sh
+  - jpm install com.codacy:codacy-coverage-reporter:assembly
 before_install:
   - pip install --user codecov
 after_success:
